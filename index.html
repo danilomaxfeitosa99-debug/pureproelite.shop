@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinha do Chef | Gastronomia de Excelência em Mairiporã</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://google.com">Cozinha <span>do Chef</span></a>
+            </div>
+            <nav id="nav">
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">O Chef</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Alta Gastronomia em Casa</span>
+                <h1>A Arte de Cozinhar com Paixão</h1>
+                <p>Refeições preparadas com técnicas de alta gastronomia, ingredientes frescos e um toque de criatividade que transforma cada prato em uma experiência memorável.</p>
+                <div class="hero-btns">
+                    <a href="https://google.com" class="btn btn-primary">Nossos Pratos</a>
+                    <a href="https://google.com" class="btn btn-outline">Encomendar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Excelência em Cada Detalhe</h2>
+                    <p>O Restaurante Cozinha do Chef LTDA é referência em Mairiporã por unir tradição e inovação. Sob o comando de especialistas, nossa cozinha foca no fornecimento de alimentos preparados com o mais alto padrão de higiene e sabor.</p>
+                    <p>Seja para o seu dia a dia ou para eventos especiais, nossa missão é levar a experiência de um restaurante de luxo diretamente para a sua mesa.</p>
+                    <div class="stats">
+                        <div class="stat-box">
+                            <h3>Fresco</h3>
+                            <p>Diariamente</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>Gourmet</h3>
+                            <p>Qualidade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <a href="https://google.com">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cozinha Profissional">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossas Soluções</h2>
+                <p>Gastronomia personalizada para todas as necessidades.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🍽️</div>
+                    <h3>Refeições Domiciliares</h3>
+                    <p>Pratos prontos e balanceados para o seu conforto em casa.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🏢</div>
+                    <h3>Catering Corporativo</h3>
+                    <p>Soluções completas de alimentação para empresas e escritórios.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🎉</div>
+                    <h3>Eventos & Bufê</h3>
+                    <p>Cardápios exclusivos para tornar sua celebração inesquecível.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">👨‍🍳</div>
+                    <h3>Consultoria Gastronômica</h3>
+                    <p>Expertise do Chef para otimizar processos e sabores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Entre em Contato</h2>
+                    <p>Estamos prontos para atender seu pedido ou tirar suas dúvidas.</p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <strong>Endereço:</strong>
+                            <p>Rua Sao Judas Tadeu, O, Anexo 56 B, Capoavinha, Mairiporã, SP</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>CNPJ:</strong>
+                            <p>64.736.084/0001-09</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" onsubmit="return false;">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Como podemos ajudar você hoje?" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cozinha do Chef. Mairiporã - SP.</p>
+                <div class="footer-links">
+                    <a href="https://google.com">Privacidade</a>
+                    <a href="https://google.com">Termos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
