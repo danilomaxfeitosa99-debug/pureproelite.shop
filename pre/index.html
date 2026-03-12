@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tudomány Világa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'IBM Plex Sans',sans-serif;color:#d4cfc8;background:#141820;line-height:1.8;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+
+/* TOPBAR */
+.top{background:#0d1018;text-align:center;padding:8px;font-size:10px;font-weight:500;color:#5a6478;letter-spacing:2.5px;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.04)}
+
+/* HEADER */
+.hdr{max-width:680px;margin:0 auto;padding:22px 20px;display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(255,255,255,.06)}
+.hdr a{font-family:'EB Garamond',serif;font-size:24px;color:#e8e2d8;text-decoration:none;font-weight:400}
+.hdr a span{color:#b08d57}
+.hdr-cat{font-size:11px;color:#b08d57;letter-spacing:2px;text-transform:uppercase;font-weight:500}
+
+/* CONTENT */
+.wrap{max-width:620px;margin:0 auto;padding:32px 20px 60px}
+
+/* EYEBROW */
+.eye{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#b08d57;margin-bottom:14px}
+
+/* TITLE */
+h1{font-family:'EB Garamond',serif;font-size:36px;line-height:1.2;color:#f0ece4;margin-bottom:14px;font-weight:500}
+h1 em{font-style:italic;color:#b08d57}
+.deck{font-size:16px;color:#8a8478;font-weight:300;margin-bottom:14px;line-height:1.65}
+.byline{font-size:12px;color:#5a5548;margin-bottom:24px;padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.06)}
+.byline strong{color:#8a8478}
+
+/* HERO */
+.hero{border-radius:3px;overflow:hidden;margin-bottom:6px;border:1px solid rgba(255,255,255,.04)}
+.hero img,.fig img{cursor:pointer;transition:all .35s}
+.hero img:hover,.fig img:hover{opacity:.85;filter:brightness(1.05)}
+.cap{font-size:11px;color:#5a5548;font-style:italic;margin-bottom:24px}
+
+/* CTA — dark glass */
+.cta{text-align:center;margin:26px 0;padding:28px 22px;background:rgba(176,141,87,.06);border:1px solid rgba(176,141,87,.15);border-radius:4px;position:relative}
+.cta h3{font-family:'EB Garamond',serif;font-size:21px;color:#f0ece4;margin-bottom:6px;font-weight:400}
+.cta p{color:#8a8478;font-size:14px;margin-bottom:14px;font-weight:300}
+.btn{display:inline-block;background:linear-gradient(135deg,#b08d57,#c9a66b);color:#141820;padding:14px 44px;border-radius:3px;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .3s;font-family:'IBM Plex Sans',sans-serif}
+.btn:hover{transform:translateY(-1px);box-shadow:0 6px 24px rgba(176,141,87,.25);background:linear-gradient(135deg,#c9a66b,#d4b47a)}
+.cta-n{font-size:10px;color:#5a5548;margin-top:10px}
+
+/* BODY */
+.body p{margin-bottom:18px;color:#a8a298}
+.body strong{color:#e8e2d8}
+
+.fig{margin:24px 0;border-radius:3px;overflow:hidden;border:1px solid rgba(255,255,255,.04)}
+
+/* HIGHLIGHT BOX */
+.hbox{margin:24px 0;padding:18px 22px;background:rgba(255,255,255,.02);border-left:2px solid #b08d57;border-radius:0 3px 3px 0}
+.hbox p{font-family:'EB Garamond',serif;font-size:19px;color:#d4cfc8;font-style:italic;line-height:1.55;margin:0}
+.hbox cite{display:block;font-size:12px;color:#6a6458;font-style:normal;margin-top:8px;font-family:'IBM Plex Sans',sans-serif;letter-spacing:0.5px}
+
+/* DISC */
+.disc{font-size:11px;color:#4a4840;margin-top:28px;padding-top:14px;border-top:1px solid rgba(255,255,255,.04);line-height:1.55}
+
+/* FOOTER */
+footer{background:#0d1018;padding:24px 0;text-align:center;font-size:11px;color:#3a3830;border-top:1px solid rgba(255,255,255,.03)}
+footer a{color:#b08d57;text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+@media(max-width:600px){
+h1{font-size:27px}
+.btn{padding:13px 34px;font-size:11px}
+.wrap{padding:24px 16px 50px}
+.hbox p{font-size:17px}
+}
+</style>
+</head>
+<body>
+
+<div class="top">Tudomány &bull; Kutatás &bull; Felfedezés</div>
+<header class="hdr">
+<a href="#">Tudomány <span>Világa</span></a>
+<span class="hdr-cat">Táplálkozástudomány</span>
+</header>
+
+<div class="wrap">
+
+<p class="eye">Új Kutatás</p>
+
+<h1>A Banán Egy Olyan Összetevőt Tartalmaz, Amelyet a Kutatók <em>„Rejtett Rostnak"</em> Neveznek</h1>
+<p class="deck">Egy nemzetközi kutatócsoport most vizsgálja, milyen szerepet játszhat a rezisztens keményítő az emésztőrendszer egészségében.</p>
+<p class="byline"><strong>Tudomány Világa Szerkesztőség</strong> &nbsp;&middot;&nbsp; <span id="art-date"></span></p>
+
+<figure class="hero">
+<a href="https://lp.pureproelite.shop/preclick"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663297503148/jCMGTU5NUP78zZrraNsLhW/presell7-banana-blue-science-iAzMfyoo2JZh3njrv7mJK2.webp" alt="Kutatás"></a>
+</figure>
+<p class="cap">Illusztráció: Tudomány Világa Archívum</p>
+
+<!-- CTA 1 — IMEDIATO -->
+<div class="cta">
+<h3>A kutatás részleteit egy videóban mutatják be</h3>
+<a href="https://lp.pureproelite.shop/preclick" class="btn">Megnézem a videót</a>
+<p class="cta-n">Ingyenes tájékoztató anyag</p>
+</div>
+
+<div class="body">
+
+<p>A banán a világ egyik legfogyasztottabb gyümölcse, de kevesen ismerik a benne rejlő <strong>rezisztens keményítőt</strong> — egy speciális rostot, amely ellenáll az emésztésnek és a vastagbélben fejti ki hatását.</p>
+
+<p>A kutatók szerint ez az összetevő a <strong>bélflóra hasznos baktériumainak</strong> táplálékául szolgálhat, és jelenleg több vizsgálat is folyik annak feltárására, hogyan befolyásolhatja az anyagcsere-folyamatokat.</p>
+
+<div class="hbox">
+<p>„A rezisztens keményítő az egyik legérdekesebb természetes prebiotikum, amelyet jelenleg vizsgálunk a táplálkozástudomány területén."</p>
+<cite>— Táplálkozástudományi Szakértő</cite>
+</div>
+
+<figure class="fig">
+<a href="https://lp.pureproelite.shop/preclick"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663297503148/jCMGTU5NUP78zZrraNsLhW/presell7-notebook-research-WMpKB2DVS9NqeTdRvonqwD.webp" alt="Kutatási jegyzet"></a>
+</figure>
+
+<p>A módszer részleteit és a kutatási eredményeket egy <strong>ingyenes videóban</strong> ismertetik, amelyben lépésről lépésre bemutatják az alkalmazás módját.</p>
+
+<!-- CTA 2 -->
+<div class="cta">
+<h3>Nézd meg az ingyenes videót</h3>
+<a href="https://lp.pureproelite.shop/preclick" class="btn">Megnézem a videót</a>
+<p class="cta-n">Tájékoztató jellegű tartalom</p>
+</div>
+
+<p class="disc"><em><strong>Fontos:</strong> Ez a cikk kizárólag tájékoztató jellegű, és nem minősül orvosi tanácsadásnak. Az étrend-kiegészítők nem helyettesítik a változatos és kiegyensúlyozott étrendet. Az egyéni eredmények változhatnak. Kérjük, konzultáljon orvosával bármilyen egészségügyi kérdésben.</em></p>
+
+</div>
+</div>
+
+<footer>
+<p><a href="privacy.html">Adatvédelmi Szabályzat</a> &nbsp;&middot;&nbsp; <a href="terms.html">Felhasználási Feltételek</a></p>
+<p style="margin-top:6px">&copy; 2026 Tudomány Világa &nbsp;&middot;&nbsp; CNPJ: 64.736.084/0001-09</p>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){var d=new Date(),m=['január','február','március','április','május','június','július','augusztus','szeptember','október','november','december'];document.getElementById('art-date').textContent=d.getFullYear()+'. '+m[d.getMonth()]+' '+d.getDate()+'.';});
+(function(){var q=window.location.search;if(!q)return;document.querySelectorAll('a[href]').forEach(function(a){var h=a.getAttribute('href');if(!h||h.startsWith('#')||h.startsWith('mailto:'))return;a.setAttribute('href',h.includes('?')?h+'&'+q.substring(1):h+q)})})();
+</script>
+<script type="text/javascript" src="https://lp.pureproelite.shop/pretrack.js?rtkcmpid=69b28f2668ba2bb41ba15557"></script>
+</body>
+</html>
